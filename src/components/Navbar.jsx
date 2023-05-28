@@ -32,9 +32,10 @@ const Search = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 6px;
+  padding-left:17px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 30px;
   color: ${({ theme }) => theme.text};
 `;
 const Input = styled.input`
