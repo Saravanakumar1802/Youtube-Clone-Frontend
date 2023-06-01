@@ -61,7 +61,6 @@ const Comments = ({ videoId, loggedInUser }) => {
     const fetchComments = async () => {
       try {
         const res = await axiosInstance.get(`/comments/${videoId}`);
-        console.log(res.data);
         setComments((prev) => res.data.comments);
       } catch (error) {
         console.log(error);
