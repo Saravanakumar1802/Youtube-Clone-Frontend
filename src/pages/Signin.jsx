@@ -132,7 +132,7 @@ const Signin = () => {
     <Container>
       <Wrapper>
         <Title>Sign In</Title>
-        <SubTitle>to continue to YouTube_Clone</SubTitle>
+        <SubTitle>to continue to ClipCloud</SubTitle>
         <Input
           type="text"
           placeholder="Email"

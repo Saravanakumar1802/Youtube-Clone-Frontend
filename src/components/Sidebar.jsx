@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import ytLogo from "../img/youtube-logo.png";
+// import ytLogo from "../img/youtube-logo.png";
+import clipclouldLogo from "../img/clipcloud.jpg";
 import HomeIcon from "@mui/icons-material/Home";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
@@ -93,8 +94,8 @@ const Sidebar = ({ darkMode, setDarkMode }) => {
       <Wrapper>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
-            <Img src={ytLogo} />
-            YouTube_Clone
+            <Img src={clipclouldLogo} /> &nbsp;
+            Clip_Cloud
           </Logo>
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
